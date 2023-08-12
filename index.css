@@ -1,0 +1,69 @@
+nav {
+    background-image: url(assets/asset\ 17.jpeg);
+    background-position-y: -70px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main-first {
+    background-image: url(assets/asset\ 18.jpeg);
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-second {
+    background: #0d1017;
+}
+
+.vertical-line {
+    position: relative;
+}
+
+.vertical-line::before {
+    position: absolute;
+    content: '';
+    background-color: red;
+    width: 3px;
+    top: 89px;
+    left: 44px;
+    height: 75%;
+}
+.gote{
+    position: relative;
+    z-index: 15;
+}
+.main-fourth{
+    background-image: url(assets/asset\ 17.jpeg);
+    background-position-y: -170px;
+}
+.mfc{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+footer{
+    background-image: url(assets/asset\ 18.jpeg);
+}
+
+footer a:hover,.fl-two img:hover{
+    opacity: 0.5;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.s-hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(+10%);
+}
+.s-show{
+    opacity: 1;
+    transform: translateY(0);
+}
