@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <nav class="h-[100vh] bg-cover bg-no-repeat">
-        <section class="navbar flex justify-between items-center h-28 px-20">
-            <div class="logo w-36 h-fit hue-rotate-90 brightness-200">
-                <img class="h-full w-full" src="assets/large_chainoma.png" alt="" />
+    <nav class="h-screen bg-cover bg-center bg-no-repeat">
+        <section class="navbar h-fit flex w-full justify-between items-center px-20  absolute top-0">
+            <div class="logo w-2/12 hue-rotate-90 brightness-200">
+                <img class="w-9/12" src="assets/large_chainoma.png" alt="" />
             </div>
-            <div class="menu text-gray-400">
+            <div class="menu my-10 text-gray-400">
                 <a class="mx-6" href="#">CONTACT TEAM</a>
                 <a class="mx-6" href="#">HOW IT WORKS</a>
                 <a class="mx-6" href="#">BLOG</a>
@@ -26,7 +26,7 @@
                 EXPLORE
             </button>
         </section>
-        <section class="s-hidden h-full w-full flex absolute top-0">
+        <section class="s-hidden h-screen w-full flex">
             <div class="data w-[55%] m-auto text-center text-white">
                 <div class="df text-6xl mt-20">The Open Index Protocol</div>
                 <div class="ds text-2xl mb-10 mt-5">
@@ -42,7 +42,7 @@
         </section>
     </nav>
     <main class="h-fit w-full">
-        <section class="main-first clearfix h-fit w-full bg-cover bg-no-repeat py-28 px-40">
+        <section class="main-first clearfix h-fit w-full bg-cover bg-center bg-no-repeat py-28 px-40">
             <div class="s-hidden float-left w-[70%] text-left">
                 <p class="text-4xl font-semibold mb-5">Web3 data is broken</p>
                 <p class="text-2xl text-neutral-500">
@@ -202,8 +202,8 @@
                 </div>
             </div>
         </section>
-        <section class="main-fourth bg-no-repeat bg-cover">
-            <div class="container mfc w-full m-auto flex flex-col justify-center items-center">
+        <section class="main-fourth bg-center bg-no-repeat bg-cover">
+            <div class="container w-full m-auto flex flex-col justify-center items-center">
                 <div class="flex s-hidden text-white flex-col py-32 justify-center items-center">
                     <p class="text-7xl">Networks supported</p>
                     <p class="py-12 text-lg">Chainoma currently supports common <span class="text-slate-400">Ethereum </span>(EVM) based chains and L2s</p>
